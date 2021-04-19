@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00020202"
     tools:context=".MainActivity">
 
     <TextView
@@ -24,18 +25,24 @@
 
     <Button
         android:id="@+id/btnMain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="300dp"
+        android:onClick="OnBtnclick"
         android:text="@string/do_something"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/tvMain"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvMain"
-        android:onClick="OnBtnclick"/>
+        app:layout_constraintTop_toBottomOf="@+id/tvMain" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press color"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="467dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
