@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">My Application.Edita</string>
+    <string name="app_name">BestSolutionApp</string>
+    <string name="do_something">Press</string>
 </resources>
